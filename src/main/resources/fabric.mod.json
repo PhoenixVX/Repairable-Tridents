@@ -9,8 +9,9 @@
     "PheonixVX"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+	"homepage": "https://github.com/PheonixVX/Repairable-Tridents",
+    "issues": "https://github.com/PheonixVX/Repairable-Tridents/issues"
+    "sources": "https://github.com/PheonixVX/Repairable-Tridents"
   },
 
   "license": "CC0-1.0",

@@ -12,8 +12,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(Item.class)
 abstract class TridentMixin {
     @Inject(method="canRepair", at=@At("HEAD"), cancellable=true)
-    public void repair(ItemStack itemStack_1, ItemStack itemStack_2, CallbackInfoReturnable<Boolean> info) {
-        if (itemStack_1.getItem() == Items.TRIDENT && itemStack_2.getItem() == Items.PRISMARINE_SHARD) {
+    public void repair(ItemStack tridentItem, ItemStack repairItem, CallbackInfoReturnable<Boolean> info) {
+        if (tridentItem.getItem() == Items.TRIDENT && repairItem.getItem() == Items.PRISMARINE_CRYSTALS) {
             info.setReturnValue(true);
         }
     }

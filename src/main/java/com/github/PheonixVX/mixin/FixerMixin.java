@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 abstract class TridentMixin {
     @Inject(method="canRepair", at=@At("HEAD"), cancellable=true)
     public void repair(ItemStack tridentItem, ItemStack repairItem, CallbackInfoReturnable<Boolean> info) {
-        if (tridentItem.getItem() == Items.TRIDENT && repairItem.getItem() == Items.PRISMARINE_CRYSTALS) {
+        if (tridentItem.getItem() == Items.TRIDENT && repairItem.getItem() == Items.PRISMARINE_SHARD) {
             info.setReturnValue(true);
         }
     }

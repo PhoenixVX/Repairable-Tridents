@@ -1,4 +1,4 @@
-package com.github.PheonixVX;
+package io.github.PhoenixVX.TridentFixer;
 
 import net.fabricmc.api.ModInitializer;
 

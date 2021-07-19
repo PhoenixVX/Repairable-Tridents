@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.PheonixVX.TridentFixer"
+      "io.github.PhoenixVX.TridentFixer.TridentFixer"
     ]
   },
   "mixins": [
@@ -31,8 +31,5 @@
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }

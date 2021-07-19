@@ -1,4 +1,4 @@
-# Repairable Tridents (1.16 FABRIC)
+# Repairable Tridents (1.17 FABRIC)
 
 ## Setup
 
